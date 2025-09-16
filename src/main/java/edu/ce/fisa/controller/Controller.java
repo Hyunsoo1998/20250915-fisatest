@@ -12,11 +12,11 @@ public class Controller {
 
 	@GetMapping("/get")
 	public String getReqRes() {
-		return "get 방식 요청의 응답 데이터 : 현수 ";
+		return "get 방식 요청의 응답 데이터  ";
 		
 	}
 	
-	//http://localhost:8080
+	//http://localhost:8082
 	@PostMapping("/post")
 	public String getReqRes2() {
 		return "post 방식 요청의 응답 데이터 : 민지";
